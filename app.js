@@ -5,7 +5,7 @@ const log = require('./routes/logger');
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/Vidly')
 .then(()=>{console.log("connected to database")})
-.catch(error=>{console.error("did not connect to datbase")})
+.catch(error=>{console.error("did not connect to database")})
 
 
 app.use(express.json());
