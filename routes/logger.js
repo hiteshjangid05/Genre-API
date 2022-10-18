@@ -9,7 +9,7 @@ const GenreSchema = new mongoose.Schema({
         type : String,
         required :true,
         minlength : 5,
-        maxlength: 50
+        maxlength: 100
     }
 })
 const Genre = mongoose.model("Genre", GenreSchema);
